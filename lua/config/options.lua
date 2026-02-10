@@ -11,7 +11,14 @@ vim.opt.shiftwidth = 4     -- Number of spaces to use for each step of (auto)ind
 vim.opt.softtabstop = 4    -- Number of spaces that a <Tab> counts for while editing
 vim.opt.expandtab = true   -- Use spaces instead of tabs
 
+vim.g.root_spec = {
+  "lsp",
+  { ".git", "lua", "package.json", "*.sln" },
+  "cwd",
+}
+
 vim.g.dbs = {
-    dev_dw = os.getenv("DEV_DW"),
+    dev_fw = os.getenv("DEV_FW"),
     dev_global = os.getenv("DEV_GLOBAL"),
+    dev_dw = os.getenv("DEV_DW"),
 }
