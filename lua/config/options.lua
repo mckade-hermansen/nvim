@@ -21,4 +21,5 @@ vim.g.dbs = {
     dev_fw = os.getenv("DEV_FW"),
     dev_global = os.getenv("DEV_GLOBAL"),
     dev_dw = os.getenv("DEV_DW"),
+    dev_regional = os.getenv("DEV_REGIONAL"),
 }

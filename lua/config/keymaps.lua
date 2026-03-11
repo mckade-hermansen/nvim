@@ -26,6 +26,11 @@ local function pick_db()
   end)
 end
 
+-- DATABASE
 vim.keymap.set("n", "<leader>Dc", pick_db, { desc = "DB Pick Connection" })
 vim.keymap.set("n", "<leader>Du", "<cmd>DBUIToggle<CR>", { desc = "DB UI" })
 
+-- POSTMAN
+vim.keymap.set("n", "<leader>pr", "<cmd>Rest run<cr>", { desc = "Run request" })
+vim.keymap.set("n", "<leader>pa", "<cmd>Rest last<cr>", { desc = "Run last request" })
+vim.keymap.set("n", "<leader>pl", "<cmd>Rest logs<cr>", { desc = "See last logs" })
