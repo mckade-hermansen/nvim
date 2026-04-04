@@ -1,1 +1,17 @@
 WRN 2026-03-28T21:24:38.768 ?.22233    server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/Z9ya8k/nvim.22233.0
+WRN 2026-03-29T12:36:34.170 ?.6746     server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/yz60gK/nvim.6746.0
+WRN 2026-03-29T12:36:43.792 ?.6772     server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/1t0r1v/nvim.6772.0
+WRN 2026-04-03T15:29:32.916 ?.22524    server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/8EoEyN/nvim.22524.0
+WRN 2026-04-04T15:11:18.854 ?.33774    server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/ZAmE0H/nvim.33774.0
+WRN 2026-04-04T15:11:40.051 ?.33780    server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/1Yazxo/nvim.33780.0
+WRN 2026-04-04T15:11:50.697 ?.33809    server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/VTm5En/nvim.33809.0
+WRN 2026-04-04T15:24:54.438 ?.35696    server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/X2N5NZ/nvim.35696.0
+WRN 2026-04-04T15:25:00.542 ?.35707    server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/piLqzw/nvim.35707.0
+WRN 2026-04-04T15:46:37.522 ?.37706    server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/nlpkP3/nvim.37706.0
+WRN 2026-04-04T15:46:54.734 ?.37834    server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/Eqep3V/nvim.37834.0
+WRN 2026-04-04T15:54:44.238 ?.39541    server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/DS3nbo/nvim.39541.0
+WRN 2026-04-04T15:59:40.487 ?.40618    server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/GJSaSz/nvim.40618.0
+WRN 2026-04-04T16:23:21.082 ?.49952    server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/aBmMjA/nvim.49952.0
+WRN 2026-04-04T16:23:39.207 ?.49994    server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/AuH8IC/nvim.49994.0
+WRN 2026-04-04T16:41:53.352 ?.53943    server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/haagQx/nvim.53943.0
+WRN 2026-04-04T16:42:04.781 ?.53980    server_start:199: Failed to start server: operation not permitted: /var/folders/xd/8rgkbc493p3df8k1n3339mw40000gn/T/nvim.mckade/6n9yIw/nvim.53980.0

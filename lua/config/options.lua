@@ -23,3 +23,30 @@ vim.g.dbs = {
     dev_dw = os.getenv("DEV_DW"),
     dev_regional = os.getenv("DEV_REGIONAL"),
 }
+
+local homebrew_bin = "/opt/homebrew/bin"
+local function prefer_homebrew_bin()
+  if not vim.uv.fs_stat(homebrew_bin) then
+    return
+  end
+
+  local path = vim.fn.getenv("PATH")
+  local parts = vim.split(path or "", ":", { plain = true, trimempty = true })
+  local filtered = {}
+  for _, part in ipairs(parts) do
+    if part ~= homebrew_bin then
+      table.insert(filtered, part)
+    end
+  end
+
+  local new_path = table.concat(vim.list_extend({ homebrew_bin }, filtered), ":")
+  vim.env.PATH = new_path
+  vim.fn.setenv("PATH", new_path)
+end
+
+prefer_homebrew_bin()
+
+vim.api.nvim_create_autocmd("User", {
+  pattern = "VeryLazy",
+  callback = prefer_homebrew_bin,
+})

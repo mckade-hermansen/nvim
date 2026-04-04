@@ -14,16 +14,21 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+local spec = {
+  -- add LazyVim and import its plugins
+  { "LazyVim/LazyVim", import = "lazyvim.plugins" },
+  -- add LazyVim extras
+  { import = "lazyvim.plugins.extras.dap.core" },
+  -- import/override with your plugins
+  { import = "plugins" },
+}
+
+if vim.fn.executable("dotnet") == 1 then
+  table.insert(spec, 3, { import = "lazyvim.plugins.extras.lang.dotnet" })
+end
+
 require("lazy").setup({
-  spec = {
-    -- add LazyVim and import its plugins
-    { "LazyVim/LazyVim", import = "lazyvim.plugins" },
-    -- add LazyVim extras
-    { import = "lazyvim.plugins.extras.dap.core" },
-    { import = "lazyvim.plugins.extras.lang.dotnet" },
-    -- import/override with your plugins
-    { import = "plugins" },
-  },
+  spec = spec,
   pkg = {
     -- Avoid auto-selecting plugin rockspecs such as rest.nvim's, which can
     -- trigger broken LuaRocks installs on startup.
